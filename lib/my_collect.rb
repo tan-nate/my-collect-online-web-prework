@@ -2,9 +2,9 @@ require 'pry'
 
 array = ["nate", "karl", "chin", "shannon"]
 
-def my_sort_by(hash)
+def my_collect(array)
   i = 0
-  new_array = {}
+  new_array = []
   while i < array.length
     new_array << yield(array[i])
     i = i + 1
